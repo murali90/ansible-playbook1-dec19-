@@ -1,5 +1,5 @@
 --- 
-- hosts: tomcat-node 
+- hosts: install-tomcat 
   roles: 
    - {role: install-tomcat} 
    - {role: start-tomcat} 
